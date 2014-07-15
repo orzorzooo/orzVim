@@ -20,6 +20,8 @@ Plugin 'kien/ctrlp.vim'  									"ctrlp
 Plugin 'tpope/vim-rails.git' 					"vim-rails
 Plugin 'Shougo/neocomplcache.vim'			"newconplcadhe
 Plugin 'othree/html5.vim' 						"html.vim
+Plugin 'scrooloose/nerdcommenter' 						"html.vim
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
