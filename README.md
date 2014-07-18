@@ -5,6 +5,8 @@ rz's vim setting
 
 ##裝起來的樣子
 
+覺得有些情況下，配置過後的vim比sublime text好用，當然這是個人習慣問題
+為了方便以後更換環境也能快速把vim相關設定建立起來，參考高見龍先生以及vgod他們的方式，作了一個一鍵安裝並改成用vundle管理套件
 
 ![image](https://raw.githubusercontent.com/orzorzooo/orzVim/master/image/screen.jpg)
 
