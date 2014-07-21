@@ -89,3 +89,5 @@ colorscheme orz
 :nmap - $
 :vmap - $
 
+"設定ctrl p的快速鍵是按兩下,
+:nmap ,, <c-p>
