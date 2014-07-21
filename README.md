@@ -1,5 +1,6 @@
 
-rz's vim setting
+Orz's vim setting
+
 
 ---
 
