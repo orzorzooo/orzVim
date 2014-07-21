@@ -1,4 +1,3 @@
-
 Orz's vim setting
 
 
@@ -33,7 +32,16 @@ plugin 的修改及安裝都在~/.vimrc或是~/.vim/vimrc內(其實是一樣的)
 	vim
 	:PluginUpdate
 	
-	
+## Hot key
+
+我的ctrl是設在caps lock的位置，所以我的配置不一定符合其他人的
+建議可以依照自已的習慣作修改
+
+* ctrl+j 打開nerdtree
+* ctrl+p 啟動ctrlp (這樣講好像有點白痴)
+* 空白鍵是翻下一頁
+* - 號是跳到字尾(大寫A是可以直接進入字尾並開始輸入)
+* :Q取代:q!
 
 ##Color Scheme
 

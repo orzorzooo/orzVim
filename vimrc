@@ -86,3 +86,6 @@ colorscheme orz
 
 "設定翻頁快速鍵
 :nmap <Space> <PageDown>
+:nmap - $
+:vmap - $
+
