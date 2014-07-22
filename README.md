@@ -42,6 +42,10 @@ plugin 的修改及安裝都在~/.vimrc或是~/.vim/vimrc內(其實是一樣的)
 * - 號是跳到字尾(大寫A是可以直接進入字尾並開始輸入)
 * :Q取代:q!
 * ,, 開啟ctrlp 
+* tab 增加縮排
+* shift tab 減少縮排
+* :Html 為 :setfiletype html
+* :Css 為 :setfiletype css
 
 ##Color Scheme
 

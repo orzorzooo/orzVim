@@ -86,8 +86,21 @@ colorscheme orz
 
 "設定翻頁快速鍵
 :nmap <Space> <PageDown>
+
+"設定縮排
+:nmap <tab> >>
+:nmap <s-tab> <<
+
+"設定 - 為移動到行尾
 :nmap - $
 :vmap - $
 
 "設定ctrl p的快速鍵是按兩下,
 :nmap ,, <c-p>
+
+"設定 :html 為:setfiletype html
+:command Html setfiletype html
+:command Css setfiletype css 
+
+
+
