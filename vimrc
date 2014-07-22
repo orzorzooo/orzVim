@@ -21,18 +21,25 @@ Plugin 'tpope/vim-rails.git' 					"vim-rails
 Plugin 'Shougo/neocomplcache.vim'			"newconplcadhe
 Plugin 'othree/html5.vim' 						"html.vim
 Plugin 'scrooloose/nerdcommenter' 						"html.vim
+Plugin 'ervandew/supertab' 						"supertab
+
+
 
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 "設定neocomplcache 自動啟動
-let g:neocomplcache_enable_at_startup = 1
-let g:neocomplcache_enable_quick_match = 1 
+"let g:neocomplcache_enable_at_startup = 1
+"let g:neocomplcache_enable_quick_match = 1 
+"let g:NeoComplCache_DisableAutoComplete = 1
+
+"設定supertab
+let g:SuperTabContextDefaultCompletionType = "<c-n>" 
 
 "啟動語法高亮
- syntax on
- filetype plugin indent on
+syntax on
+filetype plugin indent on
 
 " Always show statusline
  set laststatus=2
@@ -101,6 +108,4 @@ colorscheme orz
 "設定 :html 為:setfiletype html
 :command Html setfiletype html
 :command Css setfiletype css 
-
-
 

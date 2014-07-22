@@ -46,6 +46,7 @@ plugin 的修改及安裝都在~/.vimrc或是~/.vim/vimrc內(其實是一樣的)
 * shift tab 減少縮排
 * :Html 為 :setfiletype html
 * :Css 為 :setfiletype css
+* tab基本上會觸發snipmate，若沒有則會使用supertab(另一個neocomplche還要看看有沒有不衝突的方法)
 
 ##Color Scheme
 
