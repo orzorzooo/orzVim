@@ -22,6 +22,7 @@ Plugin 'Shougo/neocomplcache.vim'			"newconplcadhe
 Plugin 'othree/html5.vim' 						"html.vim
 Plugin 'scrooloose/nerdcommenter' 						"html.vim
 Plugin 'ervandew/supertab' 						"supertab
+Plugin 'git://github.com/hhff/SpacegrayEighties.vim.git'            "安裝spacegrey
 
 
 
@@ -47,6 +48,7 @@ filetype plugin indent on
 " Use 256 colours (Use this setting only if your terminal supports 256 colors
  set t_Co=256
  set background=dark
+ colorscheme SpacegrayEighties
 
 "change vim-powerline esc delay time
  set timeoutlen=1000 ttimeoutlen=0
@@ -89,7 +91,7 @@ let g:snipMate.scope_aliases['ruby'] = 'ruby,ruby-rails,ruby-1.9'
 set nu
 
 "vim 色彩
-colorscheme orz 
+"colorscheme orz 
 
 "設定翻頁快速鍵
 :nmap <Space> <PageDown>
